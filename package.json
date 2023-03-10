@@ -1,0 +1,23 @@
+{
+  "name": "trigger-workflow",
+  "version": "1.0.0",
+  "description": "This Github Action allow you to trigger any Github Workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketium/trigger-workflow.git"
+  },
+  "author": "Rocketium",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocketium/trigger-workflow/issues"
+  },
+  "homepage": "https://github.com/rocketium/trigger-workflow#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
